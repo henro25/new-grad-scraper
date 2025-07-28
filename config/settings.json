@@ -1,0 +1,28 @@
+{
+  "scraping": {
+    "rate_limit_delay": 2.0,
+    "request_timeout": 30,
+    "max_retries": 3,
+    "concurrent_requests": 5,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "output": {
+    "format": "table",
+    "save_to_file": true,
+    "output_directory": "data",
+    "filename_prefix": "jobs_",
+    "include_timestamp": true
+  },
+  "filtering": {
+    "min_match_score": 0.6,
+    "require_new_grad_keyword": true,
+    "exclude_expired": true,
+    "max_days_old": 90
+  },
+  "selenium": {
+    "headless": true,
+    "window_size": [1920, 1080],
+    "page_load_timeout": 30,
+    "implicit_wait": 10
+  }
+}

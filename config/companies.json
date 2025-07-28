@@ -1,0 +1,501 @@
+{
+  "big_tech": {
+    "Google": {
+      "careers_url": "https://careers.google.com/jobs/results/",
+      "search_params": {
+        "q": "new grad software engineer",
+        "employment_type": "FULL_TIME"
+      },
+      "selectors": {
+        "job_links": "[data-track-name='job-click']",
+        "job_title": "h3",
+        "location": "[data-automation='location']"
+      }
+    },
+    "Apple": {
+      "careers_url": "https://jobs.apple.com/en-us/search",
+      "search_params": {
+        "search": "new grad software",
+        "sort": "newest"
+      },
+      "selectors": {
+        "job_links": "a.table--advanced-search__title-link",
+        "job_title": "span.table--advanced-search__title",
+        "location": "span.table--advanced-search__location"
+      }
+    },
+    "Microsoft": {
+      "careers_url": "https://careers.microsoft.com/v2/global/en/home.html",
+      "search_params": {
+        "q": "new grad software engineer",
+        "lc": "United States"
+      },
+      "selectors": {
+        "job_links": "a.job-title-link",
+        "job_title": "h4.job-title",
+        "location": "span.job-location"
+      }
+    },
+    "Netflix": {
+      "careers_url": "https://jobs.netflix.com/search",
+      "search_params": {
+        "q": "new grad"
+      },
+      "selectors": {
+        "job_links": "a.css-1jp0m7c",
+        "job_title": "h3",
+        "location": "p.css-11av3za"
+      }
+    },
+    "Amazon": {
+      "careers_url": "https://amazon.jobs/en/search",
+      "search_params": {
+        "offset": "0",
+        "result_limit": "10",
+        "sort": "relevant",
+        "business_category": "software-development",
+        "job_schedule_type": "full-time",
+        "radius": "24km",
+        "query_options": "new grad"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3.job-title",
+        "location": "span.location-and-id"
+      }
+    },
+    "Meta": {
+      "careers_url": "https://www.metacareers.com/jobs/",
+      "search_params": {
+        "q": "new grad software engineer"
+      },
+      "selectors": {
+        "job_links": "a[data-testid='job-title-link']",
+        "job_title": "h3",
+        "location": "[data-testid='job-location']"
+      }
+    },
+    "TikTok": {
+      "careers_url": "https://careers.tiktok.com/position",
+      "search_params": {
+        "keywords": "new grad software",
+        "category": "6704215862603155720"
+      },
+      "selectors": {
+        "job_links": "a.css-1nrl5j9",
+        "job_title": "h3.css-1nrl5j9",
+        "location": "span.css-gvzjgs"
+      }
+    },
+    "Spotify": {
+      "careers_url": "https://lifeatspotify.com/jobs",
+      "search_params": {
+        "q": "new grad"
+      },
+      "selectors": {
+        "job_links": "a.btn-job-title",
+        "job_title": "h4",
+        "location": "span.location"
+      }
+    }
+  },
+  "data_and_ai": {
+    "Palantir": {
+      "careers_url": "https://jobs.lever.co/palantir",
+      "search_params": {
+        "team": "Engineering"
+      },
+      "selectors": {
+        "job_links": "a.posting-title",
+        "job_title": "h5",
+        "location": "span.sort-by-location"
+      }
+    },
+    "OpenAI": {
+      "careers_url": "https://openai.com/careers/search",
+      "search_params": {
+        "q": "software engineer"
+      },
+      "selectors": {
+        "job_links": "a.job-posting-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Anthropic": {
+      "careers_url": "https://boards.greenhouse.io/anthropic",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h4",
+        "location": "span.location"
+      }
+    },
+    "Scale AI": {
+      "careers_url": "https://scale.com/careers",
+      "search_params": {
+        "department": "Engineering"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Cursor": {
+      "careers_url": "https://anysphere.inc",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a",
+        "job_title": "h3",
+        "location": "span"
+      }
+    },
+    "C3.ai": {
+      "careers_url": "https://c3.ai/careers/",
+      "search_params": {
+        "department": "engineering"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Hugging Face": {
+      "careers_url": "https://huggingface.co/jobs",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    }
+  },
+  "mobility_and_transport": {
+    "Uber": {
+      "careers_url": "https://www.uber.com/careers/list/",
+      "search_params": {
+        "query": "new grad software engineer"
+      },
+      "selectors": {
+        "job_links": "a.css-1c5dj5l",
+        "job_title": "h4",
+        "location": "span.css-90n0z5"
+      }
+    },
+    "DoorDash": {
+      "careers_url": "https://careers.doordash.com/jobs/",
+      "search_params": {
+        "q": "new grad"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Lyft": {
+      "careers_url": "https://www.lyft.com/careers",
+      "search_params": {
+        "search": "new grad"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Waymo": {
+      "careers_url": "https://waymo.com/careers/",
+      "search_params": {
+        "q": "software engineer"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Tesla": {
+      "careers_url": "https://www.tesla.com/careers/search/",
+      "search_params": {
+        "query": "software engineer",
+        "region": "5"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "SpaceX": {
+      "careers_url": "https://www.spacex.com/careers/",
+      "search_params": {
+        "search": "software"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    }
+  },
+  "social_and_professional": {
+    "LinkedIn": {
+      "careers_url": "https://www.linkedin.com/company/linkedin/jobs/?viewAsMember=true",
+      "search_params": {
+        "keywords": "new grad software engineer"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Snapchat": {
+      "careers_url": "https://careers.snap.com/jobs",
+      "search_params": {
+        "q": "new grad"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Slack": {
+      "careers_url": "https://slack.com/careers/",
+      "search_params": {
+        "search": "software engineer"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    }
+  },
+  "trading_and_finance": {
+    "Jane Street": {
+      "careers_url": "https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=new-york",
+      "search_params": {
+        "type": "full-time",
+        "location": "new-york"
+      },
+      "selectors": {
+        "job_links": "a.position-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "DRW": {
+      "careers_url": "https://www.drw.com/work-at-drw/listings?filterType=country&value=United+States",
+      "search_params": {
+        "department": "technology"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "HRT": {
+      "careers_url": "https://www.hudsonrivertrading.com/careers/job/",
+      "search_params": {
+        "teams": "software-engineering"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Optiver": {
+      "careers_url": "https://optiver.com/working-at-optiver/career-opportunities/",
+      "search_params": {
+        "department": "technology"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "IMC": {
+      "careers_url": "https://careers.imc.com/us/en/c/technology-jobs",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "SIG": {
+      "careers_url": "https://careers.sig.com/search-results",
+      "search_params": {
+        "department": "technology"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Citadel": {
+      "careers_url": "https://www.citadel.com/careers/open-positions/positions-for-students/",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Five Rings": {
+      "careers_url": "https://fiverings.com/careers/",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Chicago Trading": {
+      "careers_url": "https://chicagotrading.com/careers",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Point72": {
+      "careers_url": "https://careers.point72.com/jobs",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    }
+  },
+  "fintech_and_crypto": {
+    "Coinbase": {
+      "careers_url": "https://www.coinbase.com/careers/positions",
+      "search_params": {
+        "search": "software engineer"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Ramp": {
+      "careers_url": "https://ramp.com/careers",
+      "search_params": {
+        "department": "engineering"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Stripe": {
+      "careers_url": "https://stripe.com/jobs/search",
+      "search_params": {
+        "q": "software engineer"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    }
+  },
+  "hardware_and_infrastructure": {
+    "Nvidia": {
+      "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+      "search_params": {
+        "q": "software engineer new grad"
+      },
+      "selectors": {
+        "job_links": "a[data-automation-id='jobTitle']",
+        "job_title": "h3",
+        "location": "dd[data-automation-id='locations']"
+      }
+    },
+    "Boston Dynamics AI": {
+      "careers_url": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics",
+      "search_params": {
+        "q": "software"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Anduril": {
+      "careers_url": "https://www.anduril.com/careers/",
+      "search_params": {
+        "department": "engineering"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Groq": {
+      "careers_url": "https://x.ai/careers/open-roles",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Lockheed Martin": {
+      "careers_url": "https://www.lockheedmartinjobs.com/search-jobs",
+      "search_params": {
+        "q": "software engineer new grad"
+      },
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    }
+  },
+  "enterprise_and_cloud": {
+    "Glean": {
+      "careers_url": "https://glean.com/careers",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "AnyScale": {
+      "careers_url": "https://www.anyscale.com/careers",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    },
+    "Windsurf": {
+      "careers_url": "https://windsurf.com/careers#positions",
+      "search_params": {},
+      "selectors": {
+        "job_links": "a.job-link",
+        "job_title": "h3",
+        "location": "span.location"
+      }
+    }
+  }
+}

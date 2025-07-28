@@ -1,0 +1,139 @@
+{
+  "target_roles": {
+    "software_engineering": {
+      "keywords": [
+        "software engineer",
+        "software developer",
+        "backend engineer",
+        "frontend engineer",
+        "full stack engineer",
+        "devops engineer"
+      ],
+      "new_grad_indicators": [
+        "new grad",
+        "new graduate",
+        "entry level",
+        "junior",
+        "associate",
+        "recent graduate",
+        "university graduate",
+        "college graduate",
+        "2026"
+      ]
+    },
+    "machine_learning": {
+      "keywords": [
+        "machine learning engineer",
+        "ml engineer",
+        "ai engineer",
+        "artificial intelligence",
+        "deep learning engineer",
+        "nlp engineer",
+        "computer vision engineer",
+        "applied scientist",
+        "research scientist",
+        "ml researcher",
+        "ai researcher"
+      ],
+      "new_grad_indicators": [
+        "new grad",
+        "new graduate",
+        "entry level",
+        "junior",
+        "associate",
+        "recent graduate",
+        "university graduate",
+        "college graduate",
+        "2026"
+      ]
+    },
+    "quantitative_research": {
+      "keywords": [
+        "quantitative researcher",
+        "quant researcher",
+        "quantitative analyst",
+        "quant analyst",
+        "quantitative developer",
+        "quant developer",
+        "algorithmic trading",
+        "algorithmic developer",
+        "systematic trading",
+        "trading systems",
+        "financial modeling"
+      ],
+      "new_grad_indicators": [
+        "new grad",
+        "new graduate",
+        "entry level",
+        "junior",
+        "associate",
+        "recent graduate",
+        "university graduate",
+        "college graduate",
+        "2026"
+      ]
+    },
+    "data_science": {
+      "keywords": [
+        "data scientist",
+        "data analyst",
+        "analytics engineer",
+        "business intelligence",
+        "data engineer",
+        "big data engineer",
+        "data platform engineer",
+        "statistician",
+        "research analyst"
+      ],
+      "new_grad_indicators": [
+        "new grad",
+        "new graduate",
+        "entry level",
+        "junior",
+        "associate",
+        "recent graduate",
+        "university graduate",
+        "college graduate",
+        "2026"
+      ]
+    }
+  },
+  "exclude_keywords": [
+    "senior",
+    "sr.",
+    "lead",
+    "principal",
+    "staff",
+    "manager",
+    "director",
+    "head of",
+    "vp",
+    "vice president",
+    "chief",
+    "10+ years",
+    "5+ years",
+    "experienced",
+    "seasoned"
+  ],
+  "preferred_locations": [
+    "San Francisco",
+    "San Jose",
+    "Mountain View",
+    "Palo Alto",
+    "Menlo Park",
+    "Sunnyvale",
+    "Cupertino",
+    "Redwood City",
+    "Seattle",
+    "New York",
+    "NYC",
+    "Manhattan",
+    "Austin",
+    "Chicago",
+    "Boston",
+    "Los Angeles",
+    "Denver",
+    "Remote",
+    "Hybrid"
+  ]
+}
